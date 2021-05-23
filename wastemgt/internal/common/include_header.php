@@ -14,14 +14,15 @@
             </a>
         </div> -->
 <!-- 
-    <div class="session welcome "> Welcome <?php //echo $fname ?>!&nbsp; &nbsp;
+    <div class="session welcome "> Welcome <?php //echo $fname 
+                                            ?>!&nbsp; &nbsp;
             <a href="../view/signout.php">
                 <button type="button" class="btn btn-default btn-sm signoutbutton"> <span class="glyphicon glyphicon-log-out"></span> Sign out</button>
             </a>
         </div>
 -->
 
-    <!-- </div>
+<!-- </div>
     </div>
     <div class="row">
     <nav class="navbar navbar-default navbar-static-top">
@@ -36,10 +37,13 @@
 </div> -->
 
 <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <h3 class="my-auto"><a class="navbar-brand" href="#"><img src="../images/drivegreen-logo.png" class="img-responsive"/></a></h3>
+    <h3 class="my-auto"><a class="navbar-brand" href="#"><img src="../images/drivegreen-logo.png" class="img-responsive" /></a></h3>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
+    <a id="show-sidebar" class="btn btn-sm btn-success" href="#">
+        <i class="fas fa-bars"></i>
+    </a>
     <div class="collapse navbar-collapse w-100 flex-md-column" id="navbarCollapse">
         <ul class="navbar-nav ml-auto small mb-2 mb-md-0">
             <li class="nav-item">
@@ -49,12 +53,11 @@
                 <a class="nav-link py-1" href="#"><i class="fab fa-facebook"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link py-1" href="#"><i class="fa fa-twitter" ></i></a>
+                <a class="nav-link py-1" href="#"><i class="fa fa-twitter"></i></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link py-1" href="#"><i class="fab fa-linkedin-in"></i></a>
             </li>
-
         </ul>
         <ul class="navbar-nav ml-auto small mb-2 mb-md-0">
             <li class="nav-item active">
@@ -75,7 +78,3 @@
         </ul>
     </div>
 </nav>
-
-
-
-
