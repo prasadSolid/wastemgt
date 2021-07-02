@@ -82,6 +82,15 @@
   .page-wrapper.toggled .sidebar-wrapper {
     left: 0px;
   }
+
+  @media only screen and (min-width: 600px) {
+    .page-wrapper.toggled  {
+      position: relative;
+      left: 260px;
+      width: calc(100% - 260px);
+    }
+  }
+
   
   @media screen and (min-width: 768px) {
     .page-wrapper.toggled .page-content {
@@ -96,6 +105,7 @@
     border-radius: 0 4px 4px 0px;
     width: 35px;
     transition-delay: 0.3s;
+    z-index: 2000;
   }
   .page-wrapper.toggled #show-sidebar {
     left: -40px;
@@ -258,6 +268,26 @@
     top: 14px;
   }
   
+  .sidebar-dropdown-child > a:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    font-style: normal;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    background: 0 0;
+    position: absolute;
+    right: 30px;
+  }
+  
+.sidebar-dropdown-child.active > a:after {
+    transform: rotate(90deg);
+}
   .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu ul {
     padding: 5px 0;
   }

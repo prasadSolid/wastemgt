@@ -124,8 +124,18 @@
             </a>
             <div class="sidebar-submenu">
               <ul>
+                <li class="sidebar-dropdown-child">
+                  <a href="#"> Google maps</a>
+                  <div class="sidebar-submenu-child">
+              <ul>
                 <li>
-                  <a href="#">Google maps</a>
+                  <a href="#">Example 1</a>
+                </li>
+                <li>
+                  <a href="#">Example 2</a>
+                </li>
+              </ul>
+            </div>
                 </li>
                 <li>
                   <a href="#">Open street map</a>
